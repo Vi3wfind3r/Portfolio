@@ -5,9 +5,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: white;
-  font-family: 'Merriweather', serif;
+  background-color: #000103;
+  color: #FFFFFA;
+  font-family: 'helvetica', serif;
 }
 
 ul {
@@ -16,7 +16,7 @@ ul {
 
 li a {
   text-decoration: none;
-  color: lightgrey;
+  color: #FFFFFA;
   font-family: 'Roboto Slab', serif;
   text-transform: lowercase;
 }
@@ -25,14 +25,93 @@ p a {
   text-decoration: none;
 }
 
+.name h2 h3 {
+   font-family: "Playfair Display", serif;
+}
+
 .nav-flex {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
 }
 
-.name-headshot-flex {
+.name-headshot {
+  background-image: url("http://i65.tinypic.com/2gv90d2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-size: 60%;
+  height: 25%;
+  padding-top: 20px;
+}
+
+.name {
+  display: inline-block;
+  position: relative;
+  padding-top: 148px;
+  font-size: 42px;
+}
+
+.about {
+  padding-top: 48px;
+  margin: auto;
+}
+
+.contact-info-flex {
   display: flex;
-  justify-content: center;
-  padding-top: 75px;
+  justify-content: space-around;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 48px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-one, .project-three {
+  background-color: #333138;
+  padding: 10px 10px;
+  margin: 5px 5px;
+}
+
+.project-two, .project-four {
+  background-color: #333138;
+  padding: 10px 10px;
+  margin: 5px 5px;
+}
+
+.project-stack {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-links-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.project-link > a, .contact-link > a {
+  color: #FF312E;
+}
+
+.info-form-flex {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+}
+.info-form-flex > label {
+  margin-bottom: 1px;
+}
+
+.info-form-flex > input {
+  margin-bottom: 12px;
 }
