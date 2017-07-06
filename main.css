@@ -38,6 +38,7 @@ p li {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .name-headshot {
@@ -84,16 +85,6 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 85%;
-}
-
-.project-one-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.project-one-flex > img {
-  width: 50%;
 }
 
 .project-one, .project-three {
@@ -168,10 +159,30 @@ h2 {
     display: none;
   }
 
+  .main-nav-link > a {
+    font-size: 20px;
+  }
+
   .work, .contact {
     padding-top: 150px;
   }
 
+  .nav-flex {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
 
+  .name-headshot {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-size: 60%;
+    height: 500px;
+    padding-top: 30px;
+  }
+
+  .name {
+    padding-top: 300px;
+    font-size: 82px;
+  }
 
 } /*end of at media block*/
