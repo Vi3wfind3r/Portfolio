@@ -12,6 +12,7 @@ body {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 li a {
@@ -43,7 +44,7 @@ p a {
   margin-left: 20px;
   background-size: 60%;
   height: 25%;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .name {
@@ -55,12 +56,8 @@ p a {
 
 .about {
   padding-top: 48px;
-  margin: auto;
-}
-
-.contact-info-flex {
-  display: flex;
-  justify-content: space-around;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .work {
@@ -73,6 +70,7 @@ p a {
 .project {
   display: flex;
   flex-direction: column;
+  width: 85%;
 }
 
 .project-one, .project-three {
@@ -102,6 +100,22 @@ p a {
   color: #FF312E;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-links {
+  width: 50%;
+}
+
+.contact-info-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .info-form-flex {
   display: flex;
   flex-direction: column;
@@ -115,3 +129,13 @@ p a {
 .info-form-flex > input {
   margin-bottom: 12px;
 }
+
+
+@media (min-width: 720px) {
+  .hide-when-large {
+    display: none;
+  }
+
+
+
+} /*end of at media block*/
