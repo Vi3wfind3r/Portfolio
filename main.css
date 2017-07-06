@@ -5,9 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000103;
-  color: #FFFFFA;
-  font-family: 'helvetica', serif;
+  background-color: #040c11;
+  color: #FFFFFF;
 }
 
 ul {
@@ -17,17 +16,22 @@ ul {
 
 li a {
   text-decoration: none;
-  color: #FFFFFA;
-  font-family: 'Roboto Slab', serif;
+  color: #FFFFFF;
   text-transform: lowercase;
+  font-family: 'Suranna', serif;
 }
 
 p a {
   text-decoration: none;
+  font-family: 'Suranna', serif;
+}
+
+p li {
+    font-family: 'Suranna', serif;
 }
 
 .name h2 h3 {
-   font-family: "Playfair Display", serif;
+   font-family: 'Playfair Display SC', serif;
 }
 
 .nav-flex {
@@ -67,20 +71,37 @@ p a {
   padding-top: 48px;
 }
 
+h2 {
+  font-size: 36px;
+}
+
+#work {
+  background-color: #FFFFFF;
+  color: black;
+}
+
 .project {
   display: flex;
   flex-direction: column;
   width: 85%;
 }
 
+.project-one-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-one-flex > img {
+  width: 50%;
+}
+
 .project-one, .project-three {
-  background-color: #333138;
   padding: 10px 10px;
   margin: 5px 5px;
 }
 
 .project-two, .project-four {
-  background-color: #333138;
   padding: 10px 10px;
   margin: 5px 5px;
 }
@@ -88,6 +109,15 @@ p a {
 .project-stack {
   display: flex;
   justify-content: space-between;
+}
+
+.project-stack-item {
+  width: 15%;
+  height: 15%;
+}
+
+.project-stack-item:last-of-type {
+  padding-top: 7px;
 }
 
 .project-links-ul {
@@ -104,16 +134,18 @@ p a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 48px;
 }
 
 .contact-links {
   width: 50%;
+  padding-bottom: 20px;
 }
 
 .contact-info-flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .info-form-flex {
@@ -134,6 +166,10 @@ p a {
 @media (min-width: 720px) {
   .hide-when-large {
     display: none;
+  }
+
+  .work, .contact {
+    padding-top: 150px;
   }
 
 
