@@ -189,7 +189,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 48px;
+  padding-top: 36px;
 }
 
 .icon-stack {
@@ -255,8 +255,14 @@ h2 {
     font-size: 18px;
   }
 
-  .work, .contact {
-    padding-top: 150px;
+  .work {
+    padding-top: 100px;
+  }
+
+  .project > h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 25px;
   }
 
   .project-image {
@@ -277,6 +283,9 @@ h2 {
     padding-bottom: 40px;
   }
 
+  .contact {
+    margin-bottom: 30px;
+  }
 } /*end of ipad at media block*/
 
 
@@ -334,8 +343,8 @@ h2 {
   }
 
   .project > h3 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 45px;
+    margin-bottom: 40px;
   }
 
   .project-image {
