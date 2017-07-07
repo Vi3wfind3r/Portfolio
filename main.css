@@ -1,5 +1,11 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 body {
@@ -7,6 +13,7 @@ body {
   padding: 0;
   background-color: #040c11;
   color: #FFFFFF;
+  font-family: 'Trocchi', serif;
 }
 
 ul {
@@ -14,24 +21,29 @@ ul {
   padding-left: 0;
 }
 
-li a {
+li, a {
   text-decoration: none;
   color: #FFFFFF;
   text-transform: lowercase;
-  font-family: 'Suranna', serif;
+  /*font-family: 'Suranna', serif;*/
 }
 
-p a {
+p, a {
   text-decoration: none;
-  font-family: 'Suranna', serif;
+  /*font-family: 'Suranna', serif;*/
 }
 
-p li {
-    font-family: 'Suranna', serif;
+p, li {
+    /*font-family: 'Suranna', serif;*/
 }
 
-.name h2 h3 {
-   font-family: 'Playfair Display SC', serif;
+.main-nav-link > a {
+  font-size: 14px;
+  color: #27ae60;
+}
+
+.name, h2, h3, .project-link > a {
+  font-family: 'Rozha One', serif;
 }
 
 .nav-flex {
@@ -45,24 +57,28 @@ p li {
   background-image: url("./images/JW.png");
   background-repeat: no-repeat;
   background-position: right center;
-  margin-right: 20px;
-  margin-left: 20px;
-  background-size: 60%;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  background-size: 70%;
   height: 25%;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .name {
   display: inline-block;
   position: relative;
   padding-top: 148px;
-  font-size: 42px;
+  font-size: 48px;
 }
 
 .about {
-  padding-top: 48px;
+  padding-top: 42px;
   padding-left: 12px;
   padding-right: 12px;
+  padding-bottom: 12px;
+  line-height: 290%;
+  font-size: 14px;
 }
 
 .work {
@@ -72,13 +88,25 @@ p li {
   padding-top: 48px;
 }
 
+.work > h2, .project-description {
+  color: black;
+}
+
+hr {
+  height: 4px;
+  width: 80%;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
 h2 {
   font-size: 36px;
 }
 
 #work {
   background-color: #FFFFFF;
-  color: black;
+  color: #27ae60;
 }
 
 .project {
@@ -95,6 +123,7 @@ h2 {
 .project-two, .project-four {
   padding: 10px 10px;
   margin: 5px 5px;
+  margin-bottom: 30px;
 }
 
 .project-stack {
@@ -116,6 +145,14 @@ h2 {
   height: 50%;
 }
 
+.project-name {
+  display: inline-block;
+}
+
+.project-image-box {
+  display: inline-block;
+}
+
 .project-links-ul {
   display: flex;
   flex-direction: row;
@@ -123,7 +160,7 @@ h2 {
 }
 
 .project-link > a, .contact-link > a {
-  color: #FF312E;
+  color: #27ae60;
 }
 
 .contact {
@@ -158,6 +195,10 @@ h2 {
   margin-bottom: 12px;
 }
 
+.send-message {
+  margin-top: 12px;
+}
+/*end of iphone styling*/
 
 @media (min-width: 720px) {
   .hide-when-large {
@@ -191,3 +232,24 @@ h2 {
   }
 
 } /*end of ipad at media block*/
+
+
+@media (min-width: 1200px) {
+  .hide-when-large {
+    display: none;
+  }
+
+  .name-headshot {
+    margin-right: 300px;
+    margin-left: 200px;
+    background-size: 40%;
+    height: 700px;
+    padding-top: 60px;
+  }
+
+  .about {
+    padding-top: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}/*end of desktop at media block*/

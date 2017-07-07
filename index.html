@@ -7,6 +7,8 @@
 			img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
    			style-src  'self' 'unsafe-inline' *">-->
         <link rel="stylesheet" href="main.css">
+		<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rozha+One|Trocchi" rel="stylesheet">
         <title>Jamie Wang</title>
     </head>
     <body>
@@ -27,7 +29,8 @@
             </p>
         </header>
         <section class="work" id="work">
-            <h2>My work</h2>
+            <h2>Selected Works</h2>
+			<hr>
             <section class="project project-one">
                	<h3>Frobnicator</h3>
                 <img class="project-image" src="./images/sushi.jpg"
@@ -52,9 +55,13 @@
                 </nav>
             </section>
             <section class="project project-two">
-                <h3>FooBar</h3>
-                <img class="project-image" src="./images/sushi.jpg"
-                    alt="FooBar screenshot">
+				<div class="project-name">
+                	<h3>FooBar</h3>
+				</div>
+				<div class="project-image-box">
+                	<img class="project-image" src="./images/sushi.jpg"
+                   		alt="FooBar screenshot">
+				</div>
                 <p class="project-description">
                     A foo which allows you to bar other bazes.
                 </p>
@@ -138,7 +145,7 @@
                 <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
                 <label for="contact-form-message">Message</label>
                 <textarea name="message" id="contact-form-message"></textarea>
-                <input type="submit" value="Send message">
+                <input class="send-message" type="submit" value="Send message">
             </form> 
         </section>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
