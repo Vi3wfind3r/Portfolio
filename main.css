@@ -229,6 +229,15 @@ h2 {
     font-size: 20px;
   }
 
+  .name {
+    padding-top: 300px;
+    font-size: 72px;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+
   .work, .contact {
     padding-top: 150px;
   }
@@ -244,11 +253,6 @@ h2 {
     background-size: 60%;
     height: 500px;
     padding-top: 30px;
-  }
-
-  .name {
-    padding-top: 300px;
-    font-size: 82px;
   }
 
 } /*end of ipad at media block*/
@@ -271,7 +275,7 @@ h2 {
     display: inline-block;
     position: relative;
     padding-top: 148px;
-    font-size: 60px;
+    font-size: 100px;
     padding-left: 100px;
   }
 
