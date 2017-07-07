@@ -112,6 +112,7 @@ h2 {
 .project {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 85%;
 }
 
@@ -143,14 +144,6 @@ h2 {
 .project-image {
   width: 50%;
   height: 50%;
-}
-
-.project-name {
-  display: inline-block;
-}
-
-.project-image-box {
-  display: inline-block;
 }
 
 .project-links-ul {
@@ -239,17 +232,35 @@ h2 {
     display: none;
   }
 
+  .name {
+    display: inline-block;
+    position: relative;
+    padding-top: 148px;
+    font-size: 60px;
+    padding-left: 50px;
+  }
+
   .name-headshot {
-    margin-right: 300px;
-    margin-left: 200px;
-    background-size: 40%;
-    height: 700px;
-    padding-top: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-size: 30%;
+    height: 100%;
+    padding-top: 40px;
   }
 
   .about {
     padding-top: 48px;
     padding-left: 12px;
     padding-right: 12px;
+  }
+
+  .work > h2 {
+    font-size: 50px;
+  }
+
+  .project > h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
 }/*end of desktop at media block*/
