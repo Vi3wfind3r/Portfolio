@@ -153,12 +153,14 @@ h2 {
 .project-image {
   width: 50%;
   height: 50%;
+  box-shadow: 10px 10px 22px 3px gray;
 }
 
 .project-description {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 14px;
+  padding-top: 20px;
 }
 
 .project-links {
@@ -241,6 +243,14 @@ h2 {
     font-size: 72px;
   }
 
+  .name-headshot {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-size: 60%;
+    height: 500px;
+    padding-top: 30px;
+  }
+
   .about {
     font-size: 18px;
   }
@@ -249,17 +259,22 @@ h2 {
     padding-top: 150px;
   }
 
+  .project-image {
+    box-shadow: 10px 10px 25px 6px gray;
+  }
+
+  .project-stack-item {
+    width: 10%;
+    height: 10%;
+  }
+
+  .project-description {
+    padding-top: 27px;
+  }
+
   .nav-flex {
     padding-top: 20px;
     padding-bottom: 40px;
-  }
-
-  .name-headshot {
-    margin-right: 20px;
-    margin-left: 20px;
-    background-size: 60%;
-    height: 500px;
-    padding-top: 30px;
   }
 
 } /*end of ipad at media block*/
@@ -311,7 +326,7 @@ h2 {
   }
 
   .work > h2 {
-    font-size: 50px;
+    font-size: 55px;
   }
 
   .project {
@@ -319,8 +334,26 @@ h2 {
   }
 
   .project > h3 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 10px;
+  }
+
+  .project-image {
+    box-shadow: 10px 10px 43px 6px gray;
+  }
+
+  .project-stack-item {
+    width: 7%;
+    height: 7%;
+  }
+
+  .project-description {
+    padding-top: 50px;
+    font-size: 25px;
+  }
+
+  .project-link > a {
+    font-size: 18px;
   }
 
   .contact {
