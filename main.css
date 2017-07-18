@@ -66,11 +66,16 @@ p, li {
   padding-top: 40px;
 }*/
 
-.name {
+.name-headshot {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
   padding-top: 68px;
   font-size: 48px;
+  text-shadow: 
 }
 
 .about {
