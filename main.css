@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #040c11;
+  background-color: #F6F7EB;
   color: #FFFFFF;
   font-family: 'Trocchi', serif;
 }
@@ -51,9 +51,10 @@ p, li {
   justify-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: black;
 }
 
-.name-headshot {
+/*.name-headshot {
   background-image: url("./images/JW.png");
   background-repeat: no-repeat;
   background-position: right center;
@@ -63,12 +64,12 @@ p, li {
   background-size: 70%;
   height: 25%;
   padding-top: 40px;
-}
+}*/
 
 .name {
-  display: inline-block;
-  position: relative;
-  padding-top: 148px;
+  display: flex;
+  justify-content: center;
+  padding-top: 68px;
   font-size: 48px;
 }
 
@@ -109,8 +110,16 @@ hr {
   background-color: black;
 }
 
+h1, #about {
+  color: black;
+}
+
 h2 {
   font-size: 36px;
+}
+
+h3, .project-description {
+  color: #3F88C5;
 }
 
 #work {
@@ -190,6 +199,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   padding-top: 36px;
+  background-color: black;
 }
 
 .icon-stack {
@@ -222,10 +232,16 @@ h2 {
 
 .info-form-flex > input {
   margin-bottom: 12px;
+  padding: 10px;
+}
+
+.info-form-flex > textarea {
+  padding: 20px;
 }
 
 .send-message {
   margin-top: 15px;
+  border-radius: 25%;
 }
 /*end of iphone styling*/
 
