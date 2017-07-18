@@ -71,6 +71,7 @@ p, li {
   justify-content: center;
   padding-top: 68px;
   font-size: 48px;
+  text-shadow: 3px 3px 3px #BAC1B8;
 }
 
 .about {
@@ -90,6 +91,7 @@ p, li {
   align-items: center; 
   margin-top: 48px;
   padding-top: 48px;
+ 
 }
 
 .work > h2, .project-description {
@@ -119,7 +121,7 @@ h2 {
 }
 
 h3, .project-description {
-  color: #3F88C5;
+  color: black;
 }
 
 #work {
@@ -145,6 +147,22 @@ h3, .project-description {
   margin-bottom: 30px;
 }
 
+.project-one {
+  background-color: #3F88C5;
+}
+
+.project-two {
+  background-color: #E94F37;
+}
+
+.project-three {
+  background-color: #44BBa4;
+}
+
+.project-four {
+  background-color: #BAC1B8;
+}
+
 .project-stack {
   display: flex;
   justify-content: space-between;
@@ -160,6 +178,24 @@ h3, .project-description {
 }
 
 .project-image {
+  width: 50%;
+  height: 50%;
+}
+
+.project-one > .project-image {
+  box-shadow: 10px 10px 22px 3px #004080;
+}
+
+.project-two > .project-image {
+  box-shadow: 10px 10px 22px 3px #990000;
+}
+
+.project-three > .project-image {
+  box-shadow: 10px 10px 22px 3px #008060;
+}
+
+
+.project-four > .project-image {
   width: 50%;
   height: 50%;
   box-shadow: 10px 10px 22px 3px gray;
@@ -188,9 +224,10 @@ h3, .project-description {
 
 .project-link > a {
   font-size: 14px;
+  color: black;
 }
 
-.project-link > a, .contact-link > a {
+.contact-link > a {
   color: #27ae60;
 }
 
