@@ -174,6 +174,10 @@ h3, .project-description {
   box-shadow: 10px 10px 22px 3px #004080;
 }
 
+.project-one > a {
+  text-shadow: 3px 3px 3px 1px #004080;
+}
+
 .project-two > .project-image {
   box-shadow: 10px 10px 22px 3px #990000;
 }
@@ -330,10 +334,22 @@ h3, .project-description {
   .contact {
     margin-bottom: 30px;
   }
-} /*end of ipad at media block*/
+} /*end of iphone landscape at media block*/
 
 
-@media (min-width: 1200px) {
+/*****START OF IPAD CSS*******/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}/*end of ipad css*/
+
+
+/*****START OF IPAD PRO CSS*******/
+@media only screen and (min-width: 992px) and (max-width: 1999px) {
+
+}/*end of ipad pro css*/
+
+
+@media (min-width: 2000px) {
   .hide-when-large {
     display: none;
   }
@@ -352,18 +368,6 @@ h3, .project-description {
     padding-top: 148px;
     font-size: 100px;
     padding-left: 100px;
-  }
-
-  .name-headshot {
-    background-image: url("./images/JW.png");
-    background-repeat: no-repeat;
-    background-position: right center;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 20px;
-    background-size: 70%;
-    height: 25%;
-    padding-top: 150px;
   }
 
   .about {
