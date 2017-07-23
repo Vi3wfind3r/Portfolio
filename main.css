@@ -1,4 +1,3 @@
-@media only screen and (min-width: 320px) and (max-width: 479px) {
   * {
   box-sizing: border-box;
   margin: 0;
@@ -277,7 +276,7 @@
     border-radius: 25%;
   }
 
-}/*end of iphone styling*/
+/*end of iphone styling*/
 
 
 /**********START OF IPHONE LANDSCAPE RESPONSIVENESS************/
@@ -287,20 +286,12 @@
   }
 
   .main-nav-link > a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .name {
-    padding-top: 300px;
+    padding-top: 85px;
     font-size: 72px;
-  }
-
-  .name-headshot {
-    margin-right: 20px;
-    margin-left: 20px;
-    background-size: 60%;
-    height: 500px;
-    padding-top: 30px;
   }
 
   .about {
@@ -308,11 +299,15 @@
   }
 
   .work {
-    padding-top: 100px;
+    padding-top: 80px;
+  }
+
+  .work > h2 {
+    font-size: 50px;
   }
 
   .project > h3 {
-    font-size: 25px;
+    font-size: 38px;
     margin-bottom: 30px;
     margin-top: 25px;
   }
@@ -328,6 +323,11 @@
 
   .project-description {
     padding-top: 27px;
+    font-size: 18px;
+  }
+
+  .project-link > a {
+    font-size: 18px;
   }
 
   .nav-flex {
@@ -338,17 +338,99 @@
   .contact {
     margin-bottom: 30px;
   }
+
+  .contact > h2 {
+    font-size: 46px;
+  }
 } /*end of iphone landscape at media block*/
 
 
 /*****START OF IPAD CSS*******/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+ .main-nav-link > a {
+    font-size: 16px;
+  }
+
+  .name {
+    padding-top: 85px;
+    font-size: 72px;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+
+  .work {
+    padding-top: 80px;
+  }
+
+  .work > h2 {
+    font-size: 50px;
+  }
+
+  .project > h3 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+  }
+
+  .project-image {
+    box-shadow: 10px 10px 25px 6px gray;
+  }
+
+  .project-stack-item {
+    width: 10%;
+    height: 10%;
+  }
+
+  .project-description {
+    padding-top: 27px;
+    font-size: 18px;
+  }
+
+  .project-link > a {
+    font-size: 18px;
+  }
+
+  .nav-flex {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .contact {
+    margin-bottom: 30px;
+  }
+
+  .contact > h2 {
+    font-size: 46px;
+  }
 
 }/*end of ipad css*/
 
 
 /*****START OF IPAD PRO CSS*******/
 @media only screen and (min-width: 992px) and (max-width: 1999px) {
+  .main-nav-link > a {
+    font-size: 18px;
+  }
+
+  .name {
+    font-size: 125px;
+  }
+
+  .about {
+    font-size: 24px;
+  }
+
+  .work {
+    padding-top: 125px;
+  }
+
+  .work > h2 {
+    font-size: 85px;
+  }
+
+
 
 }/*end of ipad pro css*/
 
@@ -363,7 +445,7 @@
   }
 
   .main-nav-link > a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .name {
