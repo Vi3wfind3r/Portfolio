@@ -1,4 +1,5 @@
-* {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6,277 +7,277 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+  }
 
-body {
-  margin: 0;
-  padding: 0;
-  color: #FFFFFF;
-  font-family: 'Trocchi', serif;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'Trocchi', serif;
+  }
 
-header {
-  background-color: #F6F7EB;
-  padding-bottom: 40px;
-}
+  header {
+    background-color: #F6F7EB;
+    padding-bottom: 40px;
+  }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
 
-li, a {
-  text-decoration: none;
-  color: #FFFFFF;
-  text-transform: lowercase;
-  /*font-family: 'Suranna', serif;*/
-}
-
-p, a {
-  text-decoration: none;
-  /*font-family: 'Suranna', serif;*/
-}
-
-p, li {
+  li, a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: lowercase;
     /*font-family: 'Suranna', serif;*/
-}
+  }
 
-.main-nav-link > a {
-  font-size: 14px;
-  color: #27ae60;
-}
+  p, a {
+    text-decoration: none;
+    /*font-family: 'Suranna', serif;*/
+  }
 
-.name, h2, h3, .project-link > a {
-  font-family: 'Rozha One', serif;
-}
+  p, li {
+      /*font-family: 'Suranna', serif;*/
+  }
 
-.nav-flex {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: black;
-}
+  .main-nav-link > a {
+    font-size: 14px;
+    color: #27ae60;
+  }
 
-.name {
-  display: flex;
-  justify-content: center;
-  padding-top: 68px;
-  font-size: 48px;
-  text-shadow: 3px 3px 3px #BAC1B8;
-}
+  .name, h2, h3, .project-link > a {
+    font-family: 'Rozha One', serif;
+  }
 
-.about {
-  padding-top: 42px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 18px;
-  margin-left: 12px;
-  margin-right: 12px;
-  line-height: 290%;
-  font-size: 14px;
-}
+  .nav-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+  }
 
-.work {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  padding-top: 48px;
- 
-}
+  .name {
+    display: flex;
+    justify-content: center;
+    padding-top: 68px;
+    font-size: 48px;
+    text-shadow: 3px 3px 3px #BAC1B8;
+  }
 
-.work > h2, .project-description {
-  color: black;
-}
+  .about {
+    padding-top: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 290%;
+    font-size: 14px;
+  }
 
-hr {
-  height: 4px;
-  width: 80%;
-  background-color: black;
-  margin-top: 10px;
-  margin-bottom: 8px;
-}
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 48px;
+  
+  }
 
-.hr-short {
-  height: 2px;
-  width: 50%;
-  background-color: black;
-}
+  .work > h2, .project-description {
+    color: black;
+  }
 
-h1, #about {
-  color: black;
-}
+  hr {
+    height: 4px;
+    width: 80%;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
 
-h2 {
-  font-size: 36px;
-}
+  .hr-short {
+    height: 2px;
+    width: 50%;
+    background-color: black;
+  }
 
-h3, .project-description {
-  color: black;
-}
+  h1, #about {
+    color: black;
+  }
 
-#work {
-  background-color: #FFFFFF;
-  color: #27ae60;
-}
+  h2 {
+    font-size: 36px;
+  }
 
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 85%;
-}
+  h3, .project-description {
+    color: black;
+  }
 
-.project > h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
+  #work {
+    background-color: #FFFFFF;
+    color: #27ae60;
+  }
 
-.project-one, .project-two, .project-three, .project-four {
-  padding: 10px 10px;
-  margin: 5px 5px;
-  margin-bottom: 30px;
-}
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+  }
 
-.project-one {
-  background-color: #3F88C5;
-}
+  .project > h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
-.project-two {
-  background-color: #E94F37;
-}
+  .project-one, .project-two, .project-three, .project-four {
+    padding: 10px 10px;
+    margin: 5px 5px;
+    margin-bottom: 30px;
+  }
 
-.project-three {
-  background-color: #44BBa4;
-}
+  .project-one {
+    background-color: #3F88C5;
+  }
 
-.project-four {
-  background-color: #BAC1B8;
-}
+  .project-two {
+    background-color: #E94F37;
+  }
 
-.project-stack {
-  display: flex;
-  justify-content: space-around;
-}
+  .project-three {
+    background-color: #44BBa4;
+  }
 
-.project-stack-item {
-  width: 15%;
-  height: 15%;
-}
+  .project-four {
+    background-color: #BAC1B8;
+  }
 
-.project-stack-item:last-of-type {
-  padding-top: 7px;
-}
+  .project-stack {
+    display: flex;
+    justify-content: space-around;
+  }
 
-.project-image {
-  width: 50%;
-  height: 50%;
-}
+  .project-stack-item {
+    width: 15%;
+    height: 15%;
+  }
 
-.project-one > .project-image {
-  box-shadow: 10px 10px 22px 3px #004080;
-}
+  .project-stack-item:last-of-type {
+    padding-top: 7px;
+  }
 
-.project-one > a {
-  text-shadow: 3px 3px 3px 1px #004080;
-}
+  .project-image {
+    width: 50%;
+    height: 50%;
+  }
 
-.project-two > .project-image {
-  box-shadow: 10px 10px 22px 3px #990000;
-}
+  .project-one > .project-image {
+    box-shadow: 10px 10px 22px 3px #004080;
+  }
 
-.project-three > .project-image {
-  box-shadow: 10px 10px 22px 3px #008060;
-}
+  .project-one > a {
+    text-shadow: 3px 3px 3px 1px #004080;
+  }
+
+  .project-two > .project-image {
+    box-shadow: 10px 10px 22px 3px #990000;
+  }
+
+  .project-three > .project-image {
+    box-shadow: 10px 10px 22px 3px #008060;
+  }
 
 
-.project-four > .project-image {
-  width: 50%;
-  height: 50%;
-  box-shadow: 10px 10px 22px 3px gray;
-}
+  .project-four > .project-image {
+    width: 50%;
+    height: 50%;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
 
-.project-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  padding-top: 20px;
-}
+  .project-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding-top: 20px;
+  }
 
-.project-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .project-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.project-links-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 200%;
-  margin-top: 15px;
-}
+  .project-links-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200%;
+    margin-top: 15px;
+  }
 
-.project-link > a {
-  font-size: 14px;
-  color: black;
-}
+  .project-link > a {
+    font-size: 14px;
+    color: black;
+  }
 
-.contact-link > a {
-  color: #27ae60;
-}
+  .contact-link > a {
+    color: #27ae60;
+  }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 36px;
-  background-color: black;
-}
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+    background-color: black;
+  }
 
-.icon-stack {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .icon-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.contact-links {
-  width: 50%;
-  padding-bottom: 20px;
-}
+  .contact-links {
+    width: 50%;
+    padding-bottom: 20px;
+  }
 
-.contact-info-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10px;
-}
+  .contact-info-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
 
-.info-form-flex {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  align-items: center;
-}
-.info-form-flex > label {
-  margin-bottom: 1px;
-}
+  .info-form-flex {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+  }
+  .info-form-flex > label {
+    margin-bottom: 1px;
+  }
 
-.info-form-flex > input {
-  margin-bottom: 12px;
-  padding: 10px;
-}
+  .info-form-flex > input {
+    margin-bottom: 12px;
+    padding: 10px;
+  }
 
-.info-form-flex > textarea {
-  padding: 20px;
-}
+  .info-form-flex > textarea {
+    padding: 20px;
+  }
 
-.send-message {
-  margin-top: 15px;
-  border-radius: 25%;
-}
-/*end of iphone styling*/
+  .send-message {
+    margin-top: 15px;
+    border-radius: 25%;
+  }
 
+}/*end of iphone styling*/
 
 
 /**********START OF IPHONE LANDSCAPE RESPONSIVENESS************/
@@ -352,7 +353,7 @@ h3, .project-description {
 }/*end of ipad pro css*/
 
 
-@media (min-width: 2000px) {
+@media only screen and (min-width: 2000px) {
   .hide-when-large {
     display: none;
   }
@@ -362,7 +363,7 @@ h3, .project-description {
   }
 
   .main-nav-link > a {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .name {
