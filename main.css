@@ -16,7 +16,7 @@
   }
 
   header {
-    background-color: #F6F7EB;
+    /*background-color: #F6F7EB;*/
     padding-bottom: 40px;
   }
 
@@ -416,10 +416,15 @@
 
   .name {
     font-size: 125px;
+    text-shadow: 5px 5px 3px #BAC1B8;
+    margin-top: 100px;
   }
 
   .about {
     font-size: 24px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
   }
 
   .work {
@@ -430,7 +435,46 @@
     font-size: 85px;
   }
 
+  hr {
+    height: 8px;
+  }
 
+  .hr-short {
+    height: 6px;
+  }  
+
+  .project > h3 {
+    font-size: 46px;
+  }
+
+  .project {
+    margin: 105px 105px;
+    width: 60%;
+    padding: 45px 45px;
+  }
+
+  .project-three > .project-image {
+    width: 80%;
+    height: 80%
+  }
+
+  .project-description {
+    font-size: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .project-link > a {
+    font-size: 24px;
+  }
+
+  .contact > h2 {
+    font-size: 50px;
+  }
+
+  .contact-link > a {
+    font-size: 18px;
+  }
 
 }/*end of ipad pro css*/
 
