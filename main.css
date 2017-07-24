@@ -525,12 +525,127 @@
     width: 10%;
   }
 
+
+  .project-two-title-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+  .project-two-flex > h3 {
+    font-size: 46px;
+    margin-top: 15px;
+  }
+
+  .project-two-title-img > img {
+    width: 50%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
+
+  .project-two-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .project-two-stack-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+
+
+  .project-three-title-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+  .project-three-flex > h3 {
+    font-size: 46px;
+    margin-top: 15px;
+  }
+
+  .project-three-title-img > img {
+    width: 40%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
+
+  .project-three-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .project-three-stack-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .project-four-title-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+  .project-four-flex > h3 {
+    font-size: 46px;
+    margin-top: 15px;
+  }
+
+  .project-four-title-img > img {
+    width: 40%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
+
+  .project-four-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .project-four-stack-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   /**END OF ATTEMPTS***/
 
 
 
   .project-two > h3 {
-    text-shadow: 1px 1px 1px #990000;
+    /*text-shadow: 1px 1px 1px #990000;*/
   }
 
   .project-three > h3 {
