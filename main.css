@@ -459,12 +459,13 @@
 
   /****ATTEMPTED CHANGES*****/
 
-  .project-one {
+  .project {
     background-color: #FFFFFF;
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
-    margin-top: 35px;;
+    margin-top: 65px;
+    margin-bottom: 65px;
   }
 
   .project-one-title-img {
@@ -475,13 +476,13 @@
   }
 
 
-  .project-one > h3, .project-link > a {
+  .project > h3, .project-link > a {
     color: black;
   }
 
   .project-one-flex > h3 {
     font-size: 46px;
-    margin-top: 150px;
+    margin-top: 125px;
   }
 
   .project-one-title-img > img {
@@ -515,8 +516,12 @@
     align-items: center;
   }
 
+  .project-stack {
+    margin-top: 40px;
+  }
+
   .project-stack > img {
-    height: 20%;
+    height: 10%;
     width: 10%;
   }
 
