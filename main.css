@@ -280,7 +280,7 @@
 
 
 /**********START OF IPHONE 6************/
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-width: 480px) and (max-width: 667px) {
   .hide-when-small {
     display: none;
   }
@@ -294,7 +294,7 @@
   }
 
   .about {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .work > h2 {
@@ -305,9 +305,9 @@
     font-size: 30px;
   }
 
-  .project-stack-item {
-    width: 15%;
-    height: 15%;
+  .project-stack > img {
+    width: 12%;
+    height: 12%;
   }
 
   .node-logo {
@@ -322,11 +322,6 @@
     font-size: 18px;
   }
 
-  .nav-flex {
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
-
   .contact {
     margin-bottom: 30px;
   }
@@ -334,11 +329,16 @@
   .contact > h2 {
     font-size: 46px;
   }
-} /*end of iphone landscape at media block*/
+} 
+/*end of iphone6 at media block*/
 
 
 /*****START OF IPAD CSS*******/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hide-when-large {
+    display: none;
+  }
+
  .main-nav-link > a {
     font-size: 16px;
   }
@@ -360,95 +360,8 @@
     font-size: 50px;
   }
 
-  .project > h3 {
-    font-size: 38px;
-    margin-bottom: 30px;
-    margin-top: 25px;
-  }
-
-  .project-image {
-    box-shadow: 10px 10px 25px 6px gray;
-  }
-
-  .project-stack-item {
-    width: 10%;
-    height: 10%;
-  }
-
-  .project-description {
-    padding-top: 27px;
-    font-size: 18px;
-  }
-
-  .project-link > a {
-    font-size: 18px;
-  }
-
-  .nav-flex {
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
-
-  .contact {
-    margin-bottom: 30px;
-  }
-
-  .contact > h2 {
-    font-size: 46px;
-  }
-
-}/*end of ipad css*/
-
-
-/*****START OF IPAD PRO CSS*******/
-@media only screen and (min-width: 992px) and (max-width: 1999px) {
-  .main-nav-link > a {
-    font-size: 18px;
-  }
-
-  .name {
-    font-size: 125px;
-    text-shadow: 5px 5px 3px #BAC1B8;
-    margin-top: 100px;
-  }
-
-  .about {
-    font-size: 24px;
-    padding-left: 175px;
-    padding-right: 175px;
-    margin-top: 50px;
-  }
-
-  .work {
-    padding-top: 125px;
-  }
-
-  .work > h2 {
-    font-size: 85px;
-  }
-
-  hr {
-    height: 8px;
-  }
-
-  .hr-short {
-    height: 6px;
-  }  
-
-  .project > h3 {
-    font-size: 46px;
-    color: #FFFFFF;
-  }
-
-  .project-one > h3 {
-    /*text-shadow: 1px 1px 1px #004080;*/
-  }
-
-
-
-  /****ATTEMPTED CHANGES*****/
-
-  .project {
+  
+    .project {
     background-color: #565b63;
     padding-left: 0px;
     padding-right: 0px;
@@ -627,17 +540,260 @@
     align-items: center;
   }
 
-  /**END OF ATTEMPTS***/
-
-
-
-  .project-two > h3 {
-    /*text-shadow: 1px 1px 1px #990000;*/
+  .project-link > a {
+    font-size: 18px;
   }
 
-  .project-three > h3 {
+  .nav-flex {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .contact {
+    margin-bottom: 30px;
+  }
+
+  .contact > h2 {
+    font-size: 46px;
+  }
+
+}
+/*end of ipad css*/
+
+
+/*****START OF IPAD PRO CSS*******/
+/*@media only screen and (min-width: 992px) and (max-width: 1999px) {
+  .main-nav-link > a {
+    font-size: 18px;
+  }
+
+  .name {
+    font-size: 125px;
+    text-shadow: 5px 5px 3px #BAC1B8;
+    margin-top: 100px;
+  }
+
+  .about {
+    font-size: 24px;
+    padding-left: 175px;
+    padding-right: 175px;
+    margin-top: 50px;
+  }
+
+  .work {
+    padding-top: 125px;
+  }
+
+  .work > h2 {
+    font-size: 85px;
+  }
+
+  hr {
+    height: 8px;
+  }
+
+  .hr-short {
+    height: 6px;
+  }  
+
+  .project > h3 {
+    font-size: 46px;
+    color: #FFFFFF;
+  }
+
+  .project-one > h3 {
+    /*text-shadow: 1px 1px 1px #004080;*/
+  /*}*/
+
+
+
+  /****ATTEMPTED CHANGES*****/
+
+  /*.project {
+    background-color: #565b63;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+
+  .project-one-title-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+  .project > h3, .project-link > a {
+    color: #FFFFFF;
+  }
+
+  .project-one-flex > h3 {
+    font-size: 46px;
+    margin-top: 125px;
+  }
+
+  .project-one-title-img > img {
+    width: 50%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
+
+  .project-one-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .project-links {
+    margin-top: 20px;
+  }
+
+  .project-link > a {
+    color: #27ae60;
+  }
+
+  .project-one-stack-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-stack {
+    margin-top: 40px;
+  }
+
+  .project-stack > img {
+    height: 10%;
+    width: 10%;
+  }
+
+
+  .project-two-title-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+  .project-two-flex > h3 {
+    font-size: 46px;
+    margin-top: 15px;
+  }
+
+  .project-two-title-img > img {
+    width: 50%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
+
+  .project-two-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .project-two-stack-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-three-title-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+  .project-three-flex > h3 {
+    font-size: 46px;
+    margin-top: 15px;
+  }
+
+  .project-three-title-img > img {
+    width: 40%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
+
+  .project-three-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .project-three-stack-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .project-four-title-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+  .project-four-flex > h3 {
+    font-size: 46px;
+    margin-top: 15px;
+  }
+
+  .project-four-title-img > img {
+    width: 40%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 22px 3px gray;
+  }
+
+  .project-four-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .project-four-stack-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }*/
+
+  /**END OF ATTEMPTS**
+
+
+  /*.project-three > h3 {
     text-shadow: 1px 1px 1px #008060;
-  }
+  }*/
 
   /*.project {
     margin: 105px 105px;
@@ -645,7 +801,7 @@
     padding: 45px 45px;
   }*/
 
-  .project-three > .project-image {
+  /*.project-three > .project-image {
     width: 80%;
     height: 80%
   }
@@ -659,7 +815,7 @@
   .project-link > a {
     font-size: 24px;
     /*color: #FFFFFF;*/
-  }
+  /*}
 
   .contact > h2 {
     font-size: 50px;
@@ -669,10 +825,12 @@
     font-size: 18px;
   }
 
-}/*end of ipad pro css*/
+}*/
+
+/*end of ipad pro css*/
 
 
-@media only screen and (min-width: 2000px) {
+/*@media only screen and (min-width: 2000px) {
   .hide-when-large {
     display: none;
   }
@@ -745,4 +903,6 @@
     margin-bottom: 20px;
   }
 
-}/*end of desktop at media block*/
+}*/
+
+/*////end of desktop at media block////*/
