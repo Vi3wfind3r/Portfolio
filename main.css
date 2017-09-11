@@ -221,7 +221,7 @@
   }
 
   .contact-links {
-    width: 50%;
+    width: 80%;
     padding-bottom: 20px;
   }
 
@@ -230,6 +230,14 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
+  }
+
+  .google-stack {
+    margin-right: 20px;
+  }
+
+  .email-stack{
+    margin-left: 20px;
   }
 
   .info-form-flex {
@@ -243,7 +251,7 @@
   }
 
   .info-form-flex > input {
-    margin-bottom: 12px;
+    margin-bottom: 30px;
     padding: 10px;
   }
 
