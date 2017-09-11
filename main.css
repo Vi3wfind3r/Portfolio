@@ -29,20 +29,18 @@
     text-decoration: none;
     color: #FFFFFF;
     text-transform: lowercase;
-    /*font-family: 'Suranna', serif;*/
   }
 
   p, a {
     text-decoration: none;
-    /*font-family: 'Suranna', serif;*/
   }
 
-  p, li {
-      /*font-family: 'Suranna', serif;*/
-  }
 
-/*start of iphone styling*/
+/*start of iphone5 styling*/
 @media only screen and (min-width: 320px) and (max-width: 568px) {
+  .hide-when-small {
+    display: none;
+  }
 
   .main-nav-link > a {
     font-size: 14px;
@@ -278,12 +276,12 @@
   }
 
 }
-/*end of iphone styling*/
+/*end of iphone5 styling*/
 
 
-/**********START OF IPHONE LANDSCAPE RESPONSIVENESS************/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .hide-when-large {
+/**********START OF IPHONE 6************/
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .hide-when-small {
     display: none;
   }
 
@@ -292,39 +290,31 @@
   }
 
   .name {
-    padding-top: 85px;
-    font-size: 72px;
+    font-size: 55px;
   }
 
   .about {
     font-size: 18px;
   }
 
-  .work {
-    padding-top: 80px;
-  }
-
   .work > h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
-  .project > h3 {
-    font-size: 38px;
-    margin-bottom: 30px;
-    margin-top: 25px;
-  }
-
-  .project-image {
-    box-shadow: 10px 10px 25px 6px gray;
+  .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
+    font-size: 30px;
   }
 
   .project-stack-item {
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .node-logo {
+    margin-top: 10px;
   }
 
   .project-description {
-    padding-top: 27px;
     font-size: 18px;
   }
 
