@@ -62,12 +62,22 @@
     background-color: black;
   }
 
-  .name {
+  .name-headshot {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
     padding-top: 50px;
-    font-size: 48px;
+    font-size: 42px;
     text-shadow: 3px 3px 3px #2e3033;
+  }
+
+  .name-headshot > img {
+    margin-top: 20px;
+    height: 25%;
+    width: 25%;
   }
 
   .about {
@@ -123,6 +133,7 @@
   #work {
     background-color: #565b63;
     color: #FFFFFF;
+    text-shadow: 2px 2px 2px #2e3033;
   }
 
 
@@ -152,17 +163,19 @@
     padding-left: 25px;
     padding-right: 20px;
     line-height:175%;
+    margin-top: 15px;
   }
 
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
     font-size: 25px;
+    text-shadow: 2px 2px 2px #2e3033;
   }
 
   .project-one-title-img > img, .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
     width: 40%;
     height: 40%;
     margin-bottom: 25px;
-    /*box-shadow: 10px 10px 22px 3px gray;*/
+    box-shadow: 5px 5px 22px 3px #2e3033;
   }
 
   .project-links-ul {
