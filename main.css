@@ -136,7 +136,6 @@ font-family: 'Rozha One', serif;
     text-shadow: 2px 2px 2px #2e3033;
   }
 
-
   .project {
     background-color: #565b63;
     padding-left: 0px;
@@ -205,8 +204,8 @@ font-family: 'Rozha One', serif;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .project-stack > img {
@@ -313,6 +312,11 @@ font-family: 'Rozha One', serif;
     height: 12%;
   }
 
+  .project-stack {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   .node-logo {
     margin-top: 15px;
   }
@@ -372,7 +376,10 @@ font-family: 'Rozha One', serif;
     font-size: 60px;
   }
 
-  
+  .node-logo {
+    margin-top: 20px;
+  }
+
   .project {
     background-color: #565b63;
     padding-left: 0px;
@@ -380,10 +387,14 @@ font-family: 'Rozha One', serif;
     width: 100%;
   }
 
-  .project-one-title-img {
+  .project-description {
+    padding-right: 0px;
+  }
+
+  .project-one-title-img, .project-two-title-img, .project-three-title-img, .project-four-title-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; 
   }
 
   .project-one-flex > h3 {
@@ -395,16 +406,16 @@ font-family: 'Rozha One', serif;
     width: 50%;
     height: 50%;
     margin-top: 25px;
-    margin-left: 45px;
+    margin-left: 65px;
     margin-bottom: 45px;
     box-shadow: 10px 10px 22px 3px #2e3033;
   }
 
-  .project-one-flex {
+  .project-one-flex, .project-two-flex, .project-three-flex, .project-four-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 35px;
     padding-left: 25px;
   }
 
@@ -416,7 +427,7 @@ font-family: 'Rozha One', serif;
     color: #27ae60;
   }
 
-  .project-one-stack-flex {
+  .project-one-stack-flex, .project-two-stack-flex, .project-three-stack-flex, .project-four-stack-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -432,53 +443,28 @@ font-family: 'Rozha One', serif;
   }
 
 
-  .project-two-title-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 30px;
-  }
-
-
   .project-two-flex > h3 {
-    font-size: 46px;
+    font-size: 40px;
     margin-top: 15px;
+    margin-left: 35px;
   }
 
   .project-two-title-img > img {
-    width: 50%;
+    width: 40%;
     height: 50%;
     margin-top: 25px;
-    margin-left: 55px;
+    margin-left: 25px;
     margin-right: 55px;
     margin-bottom: 45px;
-    box-shadow: 10px 10px 22px 3px gray;
+    box-shadow: 10px 10px 22px 3px #2e3033;
   }
 
-  .project-two-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 80px;
-    padding-right: 60px;
+  .project-two-flex > .project-description {
+    padding-left: 35px;
   }
-
-  .project-two-stack-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .project-three-title-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 30px;
-  }
-
 
   .project-three-flex > h3 {
-    font-size: 46px;
+    font-size: 40px;
     margin-top: 15px;
   }
 
@@ -488,36 +474,7 @@ font-family: 'Rozha One', serif;
     margin-top: 25px;
     margin-left: 55px;
     margin-bottom: 45px;
-    box-shadow: 10px 10px 22px 3px gray;
-  }
-
-  .project-three-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 80px;
-    padding-right: 60px;
-  }
-
-  .project-three-stack-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-
-  .project-four-title-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 30px;
-  }
-
-
-  .project-four-flex > h3 {
-    font-size: 46px;
-    margin-top: 15px;
+    box-shadow: 10px 10px 22px 3px #2e3033;
   }
 
   .project-four-title-img > img {
@@ -527,21 +484,17 @@ font-family: 'Rozha One', serif;
     margin-left: 55px;
     margin-right: 55px;
     margin-bottom: 45px;
-    box-shadow: 10px 10px 22px 3px gray;
+    box-shadow: 10px 10px 22px 3px #2e3033;
   }
 
-  .project-four-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 80px;
-    padding-right: 60px;
+  .project-four-flex > h3 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 35px;
   }
 
-  .project-four-stack-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .project-four-flex > .project-description {
+    padding-left: 35px;
   }
 
   .project-link > a {
