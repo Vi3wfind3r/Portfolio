@@ -5,7 +5,7 @@ padding: 0;
 border: 0;
 font: inherit;
 vertical-align: baseline;
-font-family: 'Rozha One', serif;
+font-family: 'Volkhov', serif;
 }
 
 @media only screen and (min-width: 320px) {
@@ -13,7 +13,6 @@ font-family: 'Rozha One', serif;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-    font-family: 'Trocchi', serif;
   }
 
   header {
@@ -36,10 +35,6 @@ font-family: 'Rozha One', serif;
     text-decoration: none;
   }
 
-  .name {
-    font-family: 'Rozha One', serif;
-  }
-
   .hide-when-small {
     display: none;
   }
@@ -51,7 +46,7 @@ font-family: 'Rozha One', serif;
 
   .name, h2, h3, .project-link > a {
     color: #FFFFFF;
-    font-family: 'Rozha One', serif;
+    font-family: 'Abril Fatface', cursive;
   }
 
   .nav-flex {
@@ -75,6 +70,7 @@ font-family: 'Rozha One', serif;
   }
 
   .name-headshot > img {
+    margin-top: 22px;
     width: 25vw;
   }
 
