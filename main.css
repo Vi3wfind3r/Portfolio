@@ -152,8 +152,8 @@ font-family: 'Volkhov', serif;
 
   .project-description {
     color: #FFFFFF;
-    font-size: 16px;
-    padding-left: 25px;
+    font-size: 15px;
+    padding-left: 35px;
     padding-right: 20px;
     line-height:175%;
     margin-top: 15px;
@@ -162,9 +162,27 @@ font-family: 'Volkhov', serif;
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
     font-size: 25px;
     text-shadow: 2px 2px 2px #2e3033;
+    margin-top: 30px;
   }
 
-  .project-one-title-img > img, .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
+  .imac-one {
+    background: url('./images/computer.png');
+    background-size: 200px 170px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imac-one > img {
+    width: 53vw;
+    height: 20vh;
+    margin-bottom: 25px;
+    padding-top: 10px;
+  } 
+
+  .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
     width: 40vw;
     margin-bottom: 25px;
     box-shadow: 5px 5px 22px 3px #2e3033;
