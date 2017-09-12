@@ -343,18 +343,25 @@ font-family: 'Rozha One', serif;
   .hide-when-small {
     display: flex;
   }
+  
+  .nav-flex {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
   .main-nav-link > a {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .name {
     padding-top: 85px;
-    font-size: 72px;
+    font-size: 86px;
   }
 
   .about {
-    font-size: 18px;
+    font-size: 24px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 
   .work {
@@ -362,7 +369,7 @@ font-family: 'Rozha One', serif;
   }
 
   .work > h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   
@@ -371,42 +378,34 @@ font-family: 'Rozha One', serif;
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
-    margin-top: 65px;
-    margin-bottom: 65px;
   }
 
   .project-one-title-img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 30px;
-  }
-
-
-  .project > h3, .project-link > a {
-    color: #FFFFFF;
   }
 
   .project-one-flex > h3 {
-    font-size: 46px;
-    margin-top: 125px;
+    font-size: 40px;
+    margin-left: 35px;
   }
 
   .project-one-title-img > img {
     width: 50%;
     height: 50%;
     margin-top: 25px;
-    margin-left: 55px;
+    margin-left: 45px;
     margin-bottom: 45px;
-    box-shadow: 10px 10px 22px 3px gray;
+    box-shadow: 10px 10px 22px 3px #2e3033;
   }
 
   .project-one-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 60px;
+    margin-right: 25px;
+    padding-left: 25px;
   }
 
   .project-links {
@@ -549,11 +548,6 @@ font-family: 'Rozha One', serif;
     font-size: 18px;
   }
 
-  .nav-flex {
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
-
   .contact {
     margin-bottom: 30px;
   }
@@ -564,7 +558,7 @@ font-family: 'Rozha One', serif;
 
 }
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
   .main-nav-link > a {
     font-size: 18px;
   }
@@ -890,7 +884,7 @@ font-family: 'Rozha One', serif;
   .info-form-flex > input {
     margin-bottom: 20px;
   }
-}
+}*/
 
 
 
