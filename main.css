@@ -352,6 +352,52 @@ font-family: 'Volkhov', serif;
     font-size: 30px;
   }
 
+  .imac-one {
+    background: url('./images/computer.png');
+    background-size: 60vw 85vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imac-one > img, .imac-three > img {
+    width: 51vw;
+    height: 54vh;
+    margin-top: 6px;
+  } 
+
+  .imac-two-small, .imac-four-small {
+    background: url('./images/computer.png');
+    width: 100vw;
+    height: 85vh;
+    background-size: 63vw 85vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imac-two-small > img, .imac-four-small > img {
+    width: 53vw;
+    height: 52vh;
+    margin-top: 15px;
+  }
+
+  .imac-three {
+    background: url('./images/computer.png');
+    width: 100vw;
+    height: 85vh;
+    background-size: 60vw 85vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .project-stack > img {
     height: 8%;
     width: 8%;
@@ -452,20 +498,58 @@ font-family: 'Volkhov', serif;
     margin-left: 35px;
   }
 
-  .project-one-title-img > img {
-    width: 35vw;
-    margin-top: 25px;
-    margin-left: 65px;
-    margin-bottom: 45px;
-    box-shadow: 10px 10px 22px 3px #2e3033;
-  }
-
   .project-one-flex, .project-two-flex, .project-three-flex, .project-four-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 35px;
     padding-left: 25px;
+  }
+
+  .imac-one {
+    background: url('./images/computer.png');
+    background-size: 45vw 30vh;
+    background-repeat: no-repeat;
+    background-position: center left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .imac-one > img, .imac-three > img {
+    width: 40vw;
+    height: 25vh;
+    margin-top: 6px;
+  } 
+
+  .imac-two-big, .imac-four-big {
+    background: url('./images/computer.png');
+    width: 100vw;
+    height: 85vh;
+    background-size: 60vw 40vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .imac-two-big > img, .imac-four-big > img {
+    width: 53vw;
+    height: 25vh;
+    margin-top: 15px;
+  }
+
+  .imac-three {
+    background: url('./images/computer.png');
+    width: 100vw;
+    height: 85vh;
+    background-size: 60vw 40vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .project-links {
