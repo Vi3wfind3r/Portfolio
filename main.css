@@ -177,7 +177,7 @@ font-family: 'Volkhov', serif;
 
   .imac-one {
     background: url('./images/computer.png');
-    background-size: 200px 170px;
+    background-size: 63vw 30vh;
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
@@ -192,11 +192,11 @@ font-family: 'Volkhov', serif;
     padding-top: 10px;
   } 
 
-  .imac-two-small {
+  .imac-two-small, .imac-four-small {
     background: url('./images/computer.png');
     width: 100vw;
     height: 170px;
-    background-size: 200px 170px;
+    background-size: 63vw 30vh;
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
@@ -204,28 +204,22 @@ font-family: 'Volkhov', serif;
     align-items: center;
   }
 
-  .imac-two-small > img {
+  .imac-two-small > img, .imac-four-small > img {
     width: 53vw;
     height: 18vh;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   .imac-three {
     background: url('./images/computer.png');
     width: 100vw;
     height: 170px;
-    background-size: 200px 170px;
+    background-size: 63vw 30vh;
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .project-two-title-img > img , .project-four-title-img > img  {
-    width: 40vw;
-    margin-bottom: 25px;
-    box-shadow: 5px 5px 22px 3px #2e3033;
   }
 
   .project-links-ul {
