@@ -135,6 +135,10 @@ font-family: 'Volkhov', serif;
     text-shadow: 1px 1px 1px #2e3033;
   }
 
+  .work > h2 {
+    color: #FFe74C;
+  }
+
   .project {
     background-color: #38618C;
     padding-left: 0px;
@@ -167,6 +171,7 @@ font-family: 'Volkhov', serif;
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
     font-size: 25px;
     text-shadow: 2px 2px 2px #2e3033;
+    /*color: #FFe74C;*/
   }
 
   .project-one-title-img > img, .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
