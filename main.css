@@ -364,6 +364,7 @@ font-family: 'Rozha One', serif;
 
   .about {
     font-size: 24px;
+    padding-top: 35px;
     padding-right: 50px;
     padding-left: 50px;
   }
@@ -450,7 +451,7 @@ font-family: 'Rozha One', serif;
   }
 
   .project-two-title-img > img {
-    width: 40%;
+    width: 35%;
     height: 50%;
     margin-top: 25px;
     margin-left: 25px;
@@ -508,6 +509,12 @@ font-family: 'Rozha One', serif;
 }
 
 @media only screen and (min-width: 992px) {
+
+  .about {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
   .project-one-title-img > img, .project-three-title-img > img {
     margin-left: 100px;
   }
@@ -536,7 +543,28 @@ font-family: 'Rozha One', serif;
 }
 
 @media only screen and (min-width: 1200px) {
-  
+  .about {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .project-one-title-img > img, .project-three-title-img > img {
+    margin-left: 130px;
+  }
+
+  .project-two-title-img > img, .project-four-title-img > img {
+    margin-right: 130px;
+  }
+
+  .project-two-flex > .project-description, .project-four-flex > .project-description {
+    margin-left: 80px;
+  }
+
+  .node-logo {
+    margin-top: 30px;
+  }
+
+
 }
 
 
