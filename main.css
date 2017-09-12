@@ -75,9 +75,7 @@ font-family: 'Rozha One', serif;
   }
 
   .name-headshot > img {
-    margin-top: 20px;
-    height: 25%;
-    width: 25%;
+    width: 25vw;
   }
 
   .about {
@@ -171,8 +169,7 @@ font-family: 'Rozha One', serif;
   }
 
   .project-one-title-img > img, .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
-    width: 40%;
-    height: 40%;
+    width: 40vw;
     margin-bottom: 25px;
     box-shadow: 5px 5px 22px 3px #2e3033;
   }
@@ -363,8 +360,7 @@ font-family: 'Rozha One', serif;
   }
 
   .name-headshot > img {
-    height: 20%;
-    width: 20%;
+    width: 20vw;
   }
 
   .about {
@@ -409,8 +405,7 @@ font-family: 'Rozha One', serif;
   }
 
   .project-one-title-img > img {
-    width: 35%;
-    height: 50%;
+    width: 35vw;
     margin-top: 25px;
     margin-left: 65px;
     margin-bottom: 45px;
@@ -443,12 +438,6 @@ font-family: 'Rozha One', serif;
     margin-top: 40px;
   }
 
-  .project-stack > img {
-    height: 8%;
-    width: 8%;
-  }
-
-
   .project-two-flex > h3 {
     font-size: 40px;
     margin-top: 15px;
@@ -456,8 +445,7 @@ font-family: 'Rozha One', serif;
   }
 
   .project-two-title-img > img {
-    width: 35%;
-    height: 50%;
+    width: 35vw;
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 55px;
@@ -475,8 +463,7 @@ font-family: 'Rozha One', serif;
   }
 
   .project-three-title-img > img {
-    width: 40%;
-    height: 50%;
+    width: 40vw;
     margin-top: 25px;
     margin-left: 55px;
     margin-bottom: 45px;
@@ -484,8 +471,7 @@ font-family: 'Rozha One', serif;
   }
 
   .project-four-title-img > img {
-    width: 35%;
-    height: 50%;
+    width: 35vw;
     margin-top: 25px;
     margin-left: 55px;
     margin-right: 55px;
@@ -515,8 +501,7 @@ font-family: 'Rozha One', serif;
 
 @media only screen and (min-width: 992px) {
   .name-headshot > img {
-    height: 15%;
-    width: 15%;
+    width: 15vw;
   }
 
   .about {
@@ -570,8 +555,7 @@ font-family: 'Rozha One', serif;
   }
 
   .project-stack > img {
-    height: 6%;
-    width: 6%;
+    width: 6vw;
   }
 
   .node-logo {
