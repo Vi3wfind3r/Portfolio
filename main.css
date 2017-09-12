@@ -16,7 +16,7 @@ font-family: 'Volkhov', serif;
   }
 
   header {
-    background-color: #565b63;
+    background-color: #38618C;
     padding-bottom: 40px;
   }
 
@@ -35,13 +35,18 @@ font-family: 'Volkhov', serif;
     text-decoration: none;
   }
 
+  .fa {
+    color: #FFe74C;
+  }
+
   .hide-when-small {
     display: none;
   }
 
   .main-nav-link > a {
     font-size: 14px;
-    color: #27ae60;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #2e3033;
   }
 
   .name, h2, h3, .project-link > a {
@@ -54,7 +59,7 @@ font-family: 'Volkhov', serif;
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: black;
+    background-color: #35A7ff;
   }
 
   .name-headshot {
@@ -125,13 +130,13 @@ font-family: 'Volkhov', serif;
   }
 
   #work {
-    background-color: #565b63;
+    background-color: #38618C;
     color: #FFFFFF;
-    text-shadow: 2px 2px 2px #2e3033;
+    text-shadow: 1px 1px 1px #2e3033;
   }
 
   .project {
-    background-color: #565b63;
+    background-color: #38618C;
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
@@ -188,7 +193,7 @@ font-family: 'Volkhov', serif;
   }
 
   .project-link > a {
-    color: #27ae60;
+    color: #FFe74C;
     font-size: 16px;
   }
 
@@ -210,7 +215,7 @@ font-family: 'Volkhov', serif;
   }
 
   .contact-link > a {
-    color: #27ae60;
+    color: #FFFFFF;
   }
 
   .contact {
@@ -218,7 +223,12 @@ font-family: 'Volkhov', serif;
     flex-direction: column;
     align-items: center;
     padding-top: 36px;
-    background-color: black;
+    background-color: #35A7ff;
+    text-shadow: 1px 1px 1px #2e3033;
+  }
+
+  .contact > h2 {
+    text-shadow: 2px 2px 2px #2e3033;
   }
 
   .icon-stack {
@@ -270,6 +280,9 @@ font-family: 'Volkhov', serif;
   .send-message {
     margin-top: 30px;
     border-radius: 25%;
+    background-color: #FFe74C;
+    color: #38618C;
+    box-shadow: 1px 1px 2px #2e3033;
   }
 
 }
