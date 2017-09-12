@@ -395,17 +395,6 @@ font-family: 'Volkhov', serif;
     margin-top: 20px;
   }
 
-  .project {
-    background-color: #565b63;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-  }
-
-  .project-description {
-    padding-right: 0px;
-  }
-
   .project-one-title-img, .project-two-title-img, .project-three-title-img, .project-four-title-img {
     display: flex;
     flex-direction: row;
@@ -436,14 +425,9 @@ font-family: 'Volkhov', serif;
     margin-top: 20px;
   }
 
-  .project-link > a {
-    color: #27ae60;
-  }
-
   .project-one-stack-flex, .project-two-stack-flex, .project-three-stack-flex, .project-four-stack-flex {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .project-stack {
