@@ -1,13 +1,13 @@
-  * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  }
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+}
 
+@media only screen and (min-width: 320px) {
   body {
     margin: 0;
     padding: 0;
@@ -35,9 +35,6 @@
     text-decoration: none;
   }
 
-
-/*start of iphone5 styling*/
-@media only screen and (min-width: 320px) and (max-width: 568px) {
   .hide-when-small {
     display: none;
   }
@@ -212,6 +209,9 @@
     width: 10%;
   }
 
+  .node-logo {
+    margin-top: 10px;
+  }
 
   .contact-link > a {
     color: #27ae60;
@@ -257,6 +257,7 @@
     width: 75%;
     align-items: center;
   }
+
   .info-form-flex > label {
     margin-bottom: 1px;
   }
@@ -276,11 +277,8 @@
   }
 
 }
-/*end of iphone5 styling*/
 
-
-/**********START OF IPHONE 6************/
-@media only screen and (min-width: 480px) and (max-width: 667px) {
+@media only screen and (min-width: 480px) {
   .hide-when-small {
     display: none;
   }
@@ -290,7 +288,7 @@
   }
 
   .name {
-    font-size: 55px;
+    font-size: 60px;
   }
 
   .about {
@@ -311,7 +309,7 @@
   }
 
   .node-logo {
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   .project-description {
@@ -329,17 +327,19 @@
   .contact > h2 {
     font-size: 46px;
   }
+
 } 
-/*end of iphone6 at media block*/
 
-
-/*****START OF IPAD CSS*******/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) {
   .hide-when-large {
     display: none;
   }
 
- .main-nav-link > a {
+  .hide-when-small {
+    display: flex;
+  }
+
+  .main-nav-link > a {
     font-size: 16px;
   }
 
@@ -361,7 +361,7 @@
   }
 
   
-    .project {
+  .project {
     background-color: #565b63;
     padding-left: 0px;
     padding-right: 0px;
@@ -558,11 +558,8 @@
   }
 
 }
-/*end of ipad css*/
 
-
-/*****START OF IPAD PRO CSS*******/
-/*@media only screen and (min-width: 992px) and (max-width: 1999px) {
+@media only screen and (min-width: 992px) {
   .main-nav-link > a {
     font-size: 18px;
   }
@@ -601,15 +598,8 @@
     color: #FFFFFF;
   }
 
-  .project-one > h3 {
-    /*text-shadow: 1px 1px 1px #004080;*/
-  /*}*/
 
-
-
-  /****ATTEMPTED CHANGES*****/
-
-  /*.project {
+  .project {
     background-color: #565b63;
     padding-left: 0px;
     padding-right: 0px;
@@ -749,8 +739,6 @@
     align-items: center;
   }
 
-
-
   .project-four-title-img {
     display: flex;
     flex-direction: row;
@@ -786,22 +774,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }*/
-
-  /**END OF ATTEMPTS**
+  }
 
 
-  /*.project-three > h3 {
+  .project-three > h3 {
     text-shadow: 1px 1px 1px #008060;
-  }*/
+  }
 
-  /*.project {
+  .project {
     margin: 105px 105px;
     width: 60%;
     padding: 45px 45px;
-  }*/
+  }
 
-  /*.project-three > .project-image {
+  .project-three > .project-image {
     width: 80%;
     height: 80%
   }
@@ -814,8 +800,7 @@
 
   .project-link > a {
     font-size: 24px;
-    /*color: #FFFFFF;*/
-  /*}
+  }
 
   .contact > h2 {
     font-size: 50px;
@@ -825,12 +810,10 @@
     font-size: 18px;
   }
 
-}*/
-
-/*end of ipad pro css*/
+}
 
 
-/*@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 1200px) {
   .hide-when-large {
     display: none;
   }
@@ -902,7 +885,7 @@
   .info-form-flex > input {
     margin-bottom: 20px;
   }
+}
 
-}*/
 
-/*////end of desktop at media block////*/
+
