@@ -182,7 +182,7 @@ font-family: 'Volkhov', serif;
   }
 
   .project-one-flex > h3 {
-    margin-left: 100px;
+    font-size: 18px;
   }
 
   .project-one-title-img > img, .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
