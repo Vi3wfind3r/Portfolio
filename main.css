@@ -172,6 +172,7 @@ font-family: 'Doppio One', sans-serif;
     padding-right: 20px;
     line-height:175%;
     margin-top: 15px;
+    margin-bottom: 20px;
   }
 
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
@@ -317,7 +318,7 @@ font-family: 'Doppio One', sans-serif;
   }
 
   .name {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .about {
@@ -330,6 +331,10 @@ font-family: 'Doppio One', sans-serif;
 
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
     font-size: 30px;
+  }
+
+  .project-one-flex > h3 {
+    margin-left: 0px;
   }
 
   .project-stack > img {
