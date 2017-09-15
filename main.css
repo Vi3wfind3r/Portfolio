@@ -524,9 +524,18 @@ font-family: 'Volkhov', serif;
     width: 15vw;
   }
 
+  .name {
+    font-size: 68px;
+    margin-bottom: 30px;
+  }
+
   .about {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .work > h2 {
+    font-size: 50px;
   }
 
   .project-one-title-img > img, .project-three-title-img > img {
@@ -535,6 +544,11 @@ font-family: 'Volkhov', serif;
 
   .project-one-flex, .project-three-flex {
     margin-right: 85px;
+    padding-bottom: 60px;
+  }
+
+  .project-two-flex, .project-four-flex {
+    padding-bottom: 100px;
   }
 
   .project-one-flex > .project-description {
@@ -549,8 +563,16 @@ font-family: 'Volkhov', serif;
     margin-right: 100px;
   }
 
+  .project-three-flex {
+    padding-left: 0px;
+  }
+
+  .project-link > a{
+    font-size: 16px;
+  }
+
   .project-stack {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
   }
 
