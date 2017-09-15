@@ -181,10 +181,6 @@ font-family: 'Volkhov', serif;
     color: #FFe74C;
   }
 
-  .project-one-flex > h3 {
-    font-size: 17px;
-  }
-
   .project-one-title-img > img, .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
     width: 40vw;
     margin-bottom: 25px;
@@ -425,9 +421,8 @@ font-family: 'Volkhov', serif;
     justify-content: space-around; 
   }
 
-  .project-one-flex > h3 {
+  .project-one-flex > h3, .project-three-flex > h3 {
     font-size: 28px;
-    margin-left: 35px;
   }
 
   .project-one-title-img > img {
@@ -478,10 +473,6 @@ font-family: 'Volkhov', serif;
 
   .project-two-flex > .project-description {
     padding-left: 35px;
-  }
-
-  .project-three-flex > h3 {
-    font-size: 28px;
   }
 
   .project-three-title-img > img {
