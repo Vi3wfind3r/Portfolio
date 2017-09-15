@@ -5,7 +5,9 @@ padding: 0;
 border: 0;
 font: inherit;
 vertical-align: baseline;
-font-family: 'Volkhov', serif;
+/*font-family: 'Volkhov', serif;*/
+font-family: 'Doppio One', sans-serif;
+/*font-family: 'Alegreya Sans SC', sans-serif;*/
 }
 
 @media only screen and (min-width: 320px) {
@@ -51,7 +53,8 @@ font-family: 'Volkhov', serif;
 
   .name, h2, h3, .project-link > a {
     color: #FFFFFF;
-    font-family: 'Abril Fatface', cursive;
+    /*font-family: 'Abril Fatface', cursive;*/
+    font-family: 'Diplomata', cursive;
   }
 
   .nav-flex {
@@ -70,8 +73,9 @@ font-family: 'Volkhov', serif;
 
   .name {
     padding-top: 50px;
-    font-size: 42px;
-    text-shadow: 3px 3px 3px #2e3033;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px #2e3033;
+    /*color: #FFe74C;*/
   }
 
   .name-headshot > img {
@@ -88,6 +92,7 @@ font-family: 'Volkhov', serif;
     margin-right: 12px;
     line-height: 290%;
     font-size: 14px;
+    text-shadow: 1px 1px 1px #2e3033;
 
   }
 
@@ -122,7 +127,8 @@ font-family: 'Volkhov', serif;
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 26px;
+    margin-right: 12px;
   }
 
   h3, .project-description {
@@ -169,9 +175,13 @@ font-family: 'Volkhov', serif;
   }
 
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
-    font-size: 25px;
-    text-shadow: 2px 2px 2px #2e3033;
-    /*color: #FFe74C;*/
+    font-size: 20px;
+    text-shadow: 2px 2px 1px #2e3033;
+    color: #FFe74C;
+  }
+
+  .project-one-flex > h3 {
+    margin-left: 100px;
   }
 
   .project-one-title-img > img, .project-two-title-img > img , .project-three-title-img > img , .project-four-title-img > img  {
@@ -199,7 +209,7 @@ font-family: 'Volkhov', serif;
 
   .project-link > a {
     color: #FFe74C;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .project-stack {
@@ -211,8 +221,12 @@ font-family: 'Volkhov', serif;
   }
 
   .project-stack > img {
-    height: 10%;
-    width: 10%;
+    height: 12%;
+    width: 12%;
+  }
+
+  .phaser-logo {
+    margin-top: 12px;
   }
 
   .node-logo {
@@ -233,7 +247,7 @@ font-family: 'Volkhov', serif;
   }
 
   .contact > h2 {
-    text-shadow: 2px 2px 2px #2e3033;
+    text-shadow: 1px 1px 1px #2e3033;
   }
 
   .icon-stack {
@@ -283,6 +297,7 @@ font-family: 'Volkhov', serif;
   }
 
   .send-message {
+    font-family: 'Diplomata', cursive;
     margin-top: 30px;
     border-radius: 25%;
     background-color: #FFe74C;
