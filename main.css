@@ -104,10 +104,6 @@ font-family: 'Volkhov', serif;
   
   }
 
-  .work > h2, .project-description {
-    color: #FFFFFF;
-  }
-
   hr {
     height: 4px;
     width: 80%;
@@ -122,17 +118,13 @@ font-family: 'Volkhov', serif;
     background-color: #FFFFFF;
   }
 
-  h1, #about {
+  h1, h3, .project-description, #about {
     color: #FFFFFF;
   }
 
   h2 {
-    font-size: 24px;
-    margin-right: 12px;
-  }
-
-  h3, .project-description {
-    color: #FFFFFF;
+    font-size: 22px;
+    /*margin-right: 12px;*/
   }
 
   #work {
@@ -176,7 +168,7 @@ font-family: 'Volkhov', serif;
   }
 
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 2px 2px 1px #2e3033;
     color: #FFe74C;
   }
