@@ -123,7 +123,7 @@ font-family: 'Volkhov', serif;
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 20px;
     /*margin-right: 12px;*/
   }
 
@@ -168,7 +168,7 @@ font-family: 'Volkhov', serif;
   }
 
   .project-one-flex > h3, .project-two-flex > h3 , .project-three-flex > h3 , .project-four-flex > h3 {
-    font-size: 18px;
+    font-size: 16px;
     text-shadow: 2px 2px 1px #2e3033;
     color: #FFe74C;
   }
